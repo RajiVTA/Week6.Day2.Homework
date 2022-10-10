@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="serviceNowParamsSuiteWeek6Day2">
+
+	<parameter name="url" value="https://**********.service-now.com"></parameter>
+	<parameter name="username" value="admin"></parameter>
+	<parameter name="password" value="************"></parameter>
+	
+		<test name="serviceNowParamsTestWeek6Day2" thread-count="2" verbose="2">
+		
+			<classes>
+			
+				<class name="week6.day2.serviceNow.TC001_CreateNewCallerTestNG"/>
+				<class name="week6.day2.serviceNow.TC002_UpdateExistingCallerTestNG"/>
+				<class name="week6.day2.serviceNow.TC003_DeleteExistingCallerTestNG"/>
+			
+			</classes>
+		</test>
+
+</suite>
